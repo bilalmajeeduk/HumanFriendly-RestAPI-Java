@@ -57,12 +57,12 @@ public class App implements RequestHandler<APIGatewayProxyRequestEvent, APIGatew
         String result = null;
 
         if (m == 0){
-            System.out.println(hour + " o'clock ");
+            System.out.println(hour + " " + " o'clock ");
             result = hour + " o'clock ";
         }
 //        //done
         else if (m == 05){
-            System.out.println("Five past" + hour + "</br>");
+            System.out.println("Five past" + hour);
             result = "Five past" + hour;
         }
         //done
